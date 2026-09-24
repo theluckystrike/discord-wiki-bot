@@ -620,7 +620,8 @@
 		"dashboard": {
 			"channel": "$1 zaktualizował ustawienia dla $2.",
 			"removed": "$1 usunął ustawienia dla $2.",
-			"updated": "$1 zaktualizował ustawienia serwera."
+			"updated": "$1 zaktualizował ustawienia serwera.",
+			"user": "You updated your user settings for $1."
 		},
 		"foundwikis": "Czy chodziło Ci o jedną z tych wiki?",
 		"inline disabled": {
@@ -672,7 +673,10 @@
 		"wikilist_added": "Lista preferowanych wiki została dodana.",
 		"wikilist_modified": "Lista preferowanych wiki została zmieniona.",
 		"wikilist_removed": "Lista preferowanych wiki została usunięta.",
-		"wikimissing": "Domyślna wiki nie została ustawiona dla tego serwera!"
+		"wikimissing": "Domyślna wiki nie została ustawiona dla tego serwera!",
+		"currentfieldcount": "Infobox field count:",
+		"currentfieldlength": "Infobox field length:",
+		"currentsectiondesclength": "Description length before section:"
 	},
 	"test": {
 		"MediaWiki": "Wymaga przynajmniej $1 dla pełnej funkcjonalności, znaleziono `$2`.",
@@ -772,7 +776,8 @@
 			"added_notice": "$1 dodał(a) dodatkowe powiadomienia weryfikacji.",
 			"removed": "$1 usunął weryfikację z id `$2`.",
 			"updated": "$1 zaktualizował weryfikację z id `$2`.",
-			"updated_notice": "$1 zaktualizował(a) dodatkowe powiadomienia weryfikacji."
+			"updated_notice": "$1 zaktualizował(a) dodatkowe powiadomienia weryfikacji.",
+			"button": "$1 sent a message with verify button."
 		},
 		"delete_current": "Usuń tę weryfikację:",
 		"deleted": "Weryfikacja została usunięta.",
@@ -815,7 +820,8 @@
 		"usergroup": "Grupa użytkownika:",
 		"usergroup_max": "Podano zbyt dużo grup użytkowników.",
 		"usergroup_too_long": "Podana grupa użytkowników jest zbyt długa.",
-		"value_too_high": "Podana wartość jest zbyt wysoka."
+		"value_too_high": "Podana wartość jest zbyt wysoka.",
+		"audit_reason": "Sending message with verify button"
 	},
 	"verify": {
 		"audit_reason": "Zweryfikowano jako „$1”",
@@ -861,6 +867,8 @@
 		"user_verified": "Pomyślnie zweryfikowano użytkownika Discord $1 jako {{GENDER:$3|użytkownika|użytkowniczkę|użytkownika/użytkowniczkę}} wiki $2.",
 		"user_verified_reply": "pomyślnie zweryfikowano Ciebie jako użytkownika wiki „$1”.",
 		"username": "Nazwa użytkownika wiki:",
-		"wiki": "{{GENDER:$1|Użytkownik wiki|Użytkowniczka wiki|Użytkownik/Użytkowniczka wiki}}:"
+		"wiki": "{{GENDER:$1|Użytkownik wiki|Użytkowniczka wiki|Użytkownik/Użytkowniczka wiki}}:",
+		"compromised": "*modified by different user*",
+		"placeholder": "Your wiki username with the correct capitalization."
 	}
 }
