@@ -393,7 +393,8 @@
 		"verify": "Укажите ваше имя пользователя на вики через эту команду, чтобы подтвердить, что ваш аккаунт Discord и ваша учётная запись на вики принадлежат вам, и получить роли соответствующие вашей учётной записи на вики."
 	},
 	"invite": {
-		"bot": "Используйте эту ссылку, чтобы пригласить меня на другой сервер:"
+		"bot": "Используйте эту ссылку, чтобы пригласить меня на другой сервер:",
+		"directory": "Or check out my Discord app directory page for more details:"
 	},
 	"minecraft": {
 		"fixed": "Исправлено в {{PLURAL:$1|версии|версиях}}:",
@@ -471,7 +472,8 @@
 		"vertical": "Вертикальные:",
 		"walls": "Сообщения на стенах обсуждения:",
 		"wikiid": "ID Вики:",
-		"yes": "Да"
+		"yes": "Да",
+		"directedatchildren": "Directed at children:"
 	},
 	"pause": {
 		"off": "Я продолжаю работать на этом сервере и буду отвечать на все команды снова!",
@@ -554,7 +556,10 @@
 				"enabled_rc": "• Отслеживание правок на вики было включено.",
 				"lang": "• Язык был изменён на $1.",
 				"updated": "Этот вебхук свежих правок был изменён:",
-				"wiki": "• Вики была изменена на $1."
+				"wiki": "• Вики была изменена на $1.",
+				"buttons_changed": "• The button actions have been changed to $1.",
+				"buttons_disabled": "• The button actions have been disabled.",
+				"buttons_enabled": "• The button actions have been enabled for $1."
 			},
 			"deleted": "Этот вебхук свежих правок будет удалён.",
 			"disabled_feeds": "Отслеживание изменений в лентах, таких как обсуждения, стены обсуждения и комментарии к статьям, было отключено для этого вебхука свежих правок.",
@@ -569,7 +574,8 @@
 			"updated_wiki": "Вики для этого вебхука свежих правок была изменена на $1."
 		},
 		"webhook_failed": "К сожалению, вебхук не мог быть создан, пожалуйста попробуйте позже.",
-		"wiki": "Вики:"
+		"wiki": "Вики:",
+		"buttons": "Button actions:"
 	},
 	"search": {
 		"cached": "Кэш в последний раз обновлён:",
@@ -617,7 +623,8 @@
 		"dashboard": {
 			"channel": "$1 изменил настройки для $2.",
 			"removed": "$1 удалил настройки для $2.",
-			"updated": "$1 изменил настройки сервера."
+			"updated": "$1 изменил настройки сервера.",
+			"user": "You updated your user settings for $1."
 		},
 		"foundwikis": "Вы имеете в виду какие-либо из этих вики?",
 		"inline disabled": {
@@ -659,7 +666,17 @@
 		"wikiinvalid_http": "У данного сайта отсутствует действительный сертификат TLS/SSL! Для безопасности поддерживаются только те вики, которые используют HTTPS.\nЕсли вы — системный администратор сайта, вы можете получить сертификат от центра сертификации, такого как *Let’s Encrypt*:\n<https://letsencrypt.org/ru/getting-started/>",
 		"wikiinvalid_private": "Эта вики приватная! Вики-Бот поддерживает только публичные вики (на которых у всех есть права на чтение).",
 		"wikiinvalid_timeout": "От этого сайта превышено время ожидания ответа!",
-		"wikimissing": "Вики по умолчанию для этого сервера не установлена!"
+		"wikimissing": "Вики по умолчанию для этого сервера не установлена!",
+		"user current": "These are the current settings for $1:",
+		"user lang": "The language for $1 is:",
+		"user langchanged": "You changed the language for $1 to:",
+		"user missing": "No settings for $3 are set up yet. Use $1 and $2 to change the settings.",
+		"user wiki": "The default wiki for $1 is:",
+		"user wikichanged": "You changed the default wiki for $1 to:",
+		"user wikimissing": "No default wiki is set for $1 yet!",
+		"wikilist_added": "A list of preferred wikis has been added.",
+		"wikilist_modified": "The list of preferred wikis has been modified.",
+		"wikilist_removed": "The list of preferred wikis has been removed."
 	},
 	"test": {
 		"MediaWiki": "Необходимо $1 или более для полной функциональности, у вас `$2`.",
@@ -740,7 +757,8 @@
 			"loading": "Загрузка глобальной статистики…",
 			"postcount": "Посты в обсуждениях:",
 			"registration": "Дата регистрации:",
-			"wikisedited": "Отредактировано вики:"
+			"wikisedited": "Отредактировано вики:",
+			"unknown": "*unknown*"
 		}
 	},
 	"verification": {
