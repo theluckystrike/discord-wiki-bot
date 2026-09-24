@@ -623,7 +623,8 @@
 		"dashboard": {
 			"channel": "Ο χρήστης $1 ενημέρωσε τις ρυθμίσεις για το κανάλι $2.",
 			"removed": "Ο χρήστης $1 απομάκρυνε τις ρυθμίσεις για το κανάλι $2.",
-			"updated": "Ο χρήστης $1 ενημέρωσε τις ρυθμίσεις το διακομιστή."
+			"updated": "Ο χρήστης $1 ενημέρωσε τις ρυθμίσεις το διακομιστή.",
+			"user": "You updated your user settings for $1."
 		},
 		"foundwikis": "Μήπως εννοείτε κάποιο από αυτά τα wikis;",
 		"inline disabled": {
@@ -665,7 +666,17 @@
 		"wikiinvalid_http": "Ο παρεχόμενος ιστοχώρος δε διαθέτει έγκυρο πιστοποιητικό TLS/SSL ! Για λόγους ασφαλείας υποστηρίζονται μόνο wiki που υποστηρίζουν HTTPS .\nΑν είστε διαχειριστής ιστοχώρου, μπορείτε να λάβετε ένα πιστοποιητικό από μια αρχή πιστοποίησης όπως η *Let’s Encrypt*:\n<https://letsencrypt.org/getting-started/>",
 		"wikiinvalid_private": "Το παρεχόμενο wiki είναι ιδιωτικό! Υποστηρίζονται μόνο δημόσια wikis στα οποία μπορούν να έχουν πρόσβαση όλοι.",
 		"wikiinvalid_timeout": "Ο παρεχόμενος σύνδεσμος απαιτεί πόλι χρόνο για να αποκριθεί!",
-		"wikimissing": "Κανένα προεπιλεγμένο wiki δεν έχει ρυθμιστεί ακόμα για αυτόν τον διακομιστή!"
+		"wikimissing": "Κανένα προεπιλεγμένο wiki δεν έχει ρυθμιστεί ακόμα για αυτόν τον διακομιστή!",
+		"user current": "These are the current settings for $1:",
+		"user lang": "The language for $1 is:",
+		"user langchanged": "You changed the language for $1 to:",
+		"user missing": "No settings for $3 are set up yet. Use $1 and $2 to change the settings.",
+		"user wiki": "The default wiki for $1 is:",
+		"user wikichanged": "You changed the default wiki for $1 to:",
+		"user wikimissing": "No default wiki is set for $1 yet!",
+		"wikilist_added": "A list of preferred wikis has been added.",
+		"wikilist_modified": "The list of preferred wikis has been modified.",
+		"wikilist_removed": "The list of preferred wikis has been removed."
 	},
 	"test": {
 		"MediaWiki": "Απαιτείται τουλάχιστον έκδοση $1 για πλήρη λειτουργικότητα, βρέθηκε η `$2`.",
@@ -722,7 +733,8 @@
 			"indef_noreason": "Αποκλείστηκε επ' αόριστον τη $1 από τον χρήστη $4.",
 			"indef_text": "Αποκλείστηκε επ' αόριστον τη $1 από τον χρήστη $4 με αιτία «$5».",
 			"noreason": "Αποκλείστηκε τη $1 για $2 έως $3 από τον χρήστη $4.",
-			"text": "Αποκλείστηκε τη $1 για $2 έως $3 από τον χρήστη $4 λόγω «$5»."
+			"text": "Αποκλείστηκε τη $1 για $2 έως $3 από τον χρήστη $4 λόγω «$5».",
+			"partial": "$1 is currently partially blocked!"
 		},
 		"gblock": {
 			"disabled": "Αυτός ο λογαριασμός είναι απενεργοποιημένος!",
@@ -745,7 +757,8 @@
 			"loading": "Φόρτωση γενικών στατιστικών…",
 			"postcount": "Δημοσιεύσεις συζητήσεων:",
 			"registration": "Ημερομηνία εγγραφής:",
-			"wikisedited": "Επεξεργασμένα Wikis:"
+			"wikisedited": "Επεξεργασμένα Wikis:",
+			"unknown": "*unknown*"
 		}
 	},
 	"verification": {
